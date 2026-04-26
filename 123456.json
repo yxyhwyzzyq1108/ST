@@ -1,0 +1,59 @@
+{
+    "name": "123456",
+    "description": "123456",
+    "personality": "",
+    "scenario": "",
+    "first_mes": "",
+    "mes_example": "",
+    "creatorcomment": "",
+    "avatar": "none",
+    "talkativeness": "0.5",
+    "fav": false,
+    "tags": [],
+    "spec": "chara_card_v3",
+    "spec_version": "3.0",
+    "data": {
+        "name": "123456",
+        "description": "123456",
+        "personality": "",
+        "scenario": "",
+        "first_mes": "",
+        "mes_example": "",
+        "creator_notes": "",
+        "system_prompt": "",
+        "post_history_instructions": "",
+        "tags": [],
+        "creator": "",
+        "character_version": "",
+        "alternate_greetings": [],
+        "extensions": {
+            "talkativeness": "0.5",
+            "fav": false,
+            "world": "",
+            "depth_prompt": {
+                "prompt": "",
+                "depth": 4,
+                "role": "system"
+            },
+            "tavern_helper": {
+                "scripts": [
+                    {
+                        "type": "script",
+                        "enabled": true,
+                        "name": "自动更新脚本",
+                        "id": "6c1efb60-fcb0-4ba4-a55e-ac892ef71152",
+                        "content": "import 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/酒馆助手/自动更新角色卡/index.js'",
+                        "info": "",
+                        "button": {
+                            "enabled": true,
+                            "buttons": []
+                        },
+                        "data": {}
+                    }
+                ],
+                "variables": {}
+            }
+        }
+    },
+    "create_date": "2026-04-26T15:15:32.194Z"
+}
